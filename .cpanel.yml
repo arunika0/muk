@@ -1,5 +1,11 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/arxan/muk.arxan.app/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/arxan/muk.arxan.app
+    - /bin/cp config.php $DEPLOYPATH
+    - /bin/cp index.css $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp login.css $DEPLOYPATH
+    - /bin/cp login.php $DEPLOYPATH
+    - /bin/cp logout.php $DEPLOYPATH
+
